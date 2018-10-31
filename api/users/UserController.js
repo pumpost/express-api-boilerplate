@@ -1,12 +1,12 @@
 'use strict';
 
-const UserClass = require('./User');
 const router = require('express').Router();
-
-const user = new UserClass();
+const UserClass = require('./User');
 
 module.exports = router;
 
+const user = new UserClass();
+
 router.get('/', function (req, res) {
-  res.json(user.getUsers());
+  res.render.success(user.getUsers());
 });
