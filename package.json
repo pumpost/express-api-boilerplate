@@ -1,0 +1,32 @@
+{
+  "name": "express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for restful api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pumpost/express-api-boilerplate.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "express",
+    "boilerplate"
+  ],
+  "author": "Piti Saengnark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pumpost/express-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pumpost/express-api-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "joi": "^13.7.0"
+  }
+}
